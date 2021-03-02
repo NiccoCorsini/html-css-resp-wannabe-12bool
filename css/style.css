@@ -1,0 +1,91 @@
+/* GENERAL */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  /* width: 992px; */
+  margin: 50px auto 0;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+/* per centrare orizzontalmente */
+#lezioni .row img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  background-image: linear-gradient(45deg, #428bca, #5da4b6);
+  color: white;
+  text-align: center;
+}
+
+/* BLOCCO PERCHÈ */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+  margin-bottom: 1.2rem;
+}
+
+.clear {
+  clear: both;
+}
+
+h1{
+  margin-bottom: 1.9rem;
+}
+
+h3{
+  margin-bottom: 1rem;
+}
+
+hr{
+  margin-top: 1.5rem;
+}
